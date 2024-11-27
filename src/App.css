@@ -1,0 +1,71 @@
+/* General Page Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9; /* Light gray background */
+}
+
+.title {
+  color: pink;
+  background-color: black;
+}
+
+/* Center the main container */
+div {
+  text-align: center;
+  background: #fff; /* White background for contrast */
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Style the image */
+img {
+  max-width: 300px; /* Limit the image size */
+  width: 100%; /* Make it responsive */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow around the image */
+  margin-bottom: 20px; /* Space between image and button */
+  border: 2px solid #ddd; /* Subtle border */
+}
+
+/* Style the button */
+button {
+  background-color: purple; /* Eye-catching coral color */
+  color: #fff; /* White text */
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #ff4436; /* Darker coral on hover */
+}
+/* Spinner styling */
+.spinner {
+  border: 4px solid #f3f3f3; /* Light gray */
+  border-top: 4px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+/* Spinner animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
